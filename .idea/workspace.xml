@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9d253b6-cf6a-4eba-8e75-a6dc0a38c921" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/DetailContainer/DetailContainer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DetailContainer/DetailContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Details/Details.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Details/Details.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Failure.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Nav/Nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Nav/Nav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RecipeCard/RecipeCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RecipeCard/RecipeCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Search.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/SearchCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/SearchIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/recipeService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1lAw0pvUOTxdGgvsKmbsCC5Y6dR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Details" />
+      <recent name="$PROJECT_DIR$/src/components/Detail" />
+      <recent name="$PROJECT_DIR$/src/components/Home" />
+      <recent name="$PROJECT_DIR$/src/components/RecipeCard" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9d253b6-cf6a-4eba-8e75-a6dc0a38c921" name="Default Changelist" comment="" />
+      <created>1607052987700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607052987700</updated>
+      <workItem from="1607052993414" duration="89000" />
+      <workItem from="1607053121410" duration="829000" />
+      <workItem from="1607309151829" duration="2964000" />
+      <workItem from="1607312600892" duration="18319000" />
+      <workItem from="1607394011389" duration="6849000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

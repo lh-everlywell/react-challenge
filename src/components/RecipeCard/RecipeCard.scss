@@ -1,0 +1,41 @@
+%recipeCard {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+
+%recipeCard h2 {
+  text-align: center;
+  color: black
+}
+
+.recipeCard1 {
+  @extend %recipeCard;
+  grid-area: recipe1;
+}
+.recipeCard2 {
+  @extend %recipeCard;
+  grid-area: recipe2;
+}
+.recipeCard3 {
+  @extend %recipeCard;
+  grid-area: recipe3;
+}
+.recipeCard4 {
+  @extend %recipeCard;
+  grid-area: recipe4;
+}
+.recipeCard5 {
+  @extend %recipeCard;
+  grid-area: recipe5;
+}
+
+img {
+  width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+}

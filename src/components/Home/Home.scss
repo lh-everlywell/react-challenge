@@ -1,0 +1,130 @@
+.container {
+  margin: 0;
+  height: 100vh;
+  width: auto;
+  display: grid;
+  grid-template-areas: "photo header"
+                       "photo content";
+  grid-template-columns: 40% auto;
+  grid-template-rows: auto;
+}
+
+.home-background {
+  height: 100vh;
+  width: auto;
+  grid-area: photo;
+  background-image: url('../../assets/home-background.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+
+.logo {
+  background-image: url('../../assets/logo.png');
+  width: 12vw;
+  height: 20vh;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 15%;
+  top: 40%;
+}
+
+.recipeHeader {
+  align-items: start;
+  grid-area: header;
+  justify-items: center;
+  display: grid;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.recipes {
+  display: grid;
+  grid-template-areas: "recipe1 recipe2 recipe3"
+                       "recipe4 recipe5 refresh";
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-area: content;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+.refresh:hover, .recipes:hover {
+  cursor: pointer;
+}
+
+.refresh {
+  grid-area: refresh;
+  font-size: 8rem;
+  align-self: center;
+  justify-self: center;
+}
+
+@media (max-width: 1300px) and (min-width: 600px) {
+  .container {
+    grid-template-rows: 2% auto;
+    overflow: hidden;
+  }
+  .home-background {
+    background-size: cover;
+  }
+  .recipeHeader {
+    margin-top: -1rem;
+    font-size: 1.5rem;
+  }
+
+  .refresh {
+    font-size: 5rem;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "photo"
+                        "header"
+                       "content";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+  .home-background {
+    height: 25vh;
+    grid-area: photo;
+    width: 100%;
+    background-size: cover;
+    background-position: 0 -300px;
+  }
+  .recipeHeader {
+    align-items: start;
+    grid-area: header;
+    justify-items: center;
+    display: grid;
+    font-size: 1.5rem;
+  }
+  .logo {
+    background-position: 50% 30%;
+    width: 100%;
+    height: 100px;
+    background-size: contain;
+    position: static;
+  }
+  .recipes {
+    grid-area: content;
+    grid-template-areas: "recipe1"
+                        "recipe2"
+                        "recipe3"
+                       "recipe4"
+                      "recipe5"
+                      "refresh";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+}

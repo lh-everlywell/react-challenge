@@ -1,0 +1,111 @@
+.recipeDetail {
+  display: grid;
+  grid-template-areas: "photo title"
+                        "photo ingredients"
+                        "photo instructions";
+  grid-template-columns: 40% auto;
+  grid-template-rows: 10% 40% auto;
+  height: 100vh;
+}
+
+#recipePhoto {
+  width: 100%;
+  grid-area: photo;
+}
+
+#recipeName {
+  align-self: center;
+  justify-self: center;
+  grid-area: title;
+  font-size: 5rem;
+}
+
+.ingredientList {
+  grid-area: ingredients;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.extendedIngredientList{
+  grid-area: ingredients;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.instructions {
+  grid-area: instructions;
+  text-align: center;
+}
+
+@media (max-width: 1300px) and (min-width: 600px) {
+
+  #recipeName {
+    font-size: 1rem;
+  }
+
+  .ingredientList {
+    font-size: 1rem;
+
+  }
+
+  .extendedIngredientList{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .recipeDetail {
+    grid-template-areas: "photo"
+                        "title"
+                        "ingredients"
+                        "instructions";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+  #recipePhoto {
+    width: 100%;
+    grid-area: photo;
+  }
+
+  #recipeName {
+    align-self: start;
+    justify-self: start;
+    grid-area: title;
+    font-size: 2rem;
+    margin-bottom: -1rem;
+  }
+
+  .ingredientList {
+    grid-area: ingredients;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0px;
+    text-align: left;
+    font-size: 1.25rem;
+    margin-bottom: -.5rem;
+  }
+
+  .extendedIngredientList{
+    grid-area: ingredients;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0px;
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  .instructions {
+    grid-area: instructions;
+    text-align: left;
+  }
+
+  .instructions h2 {
+    font-size: 2rem;
+
+  }
+
+}
